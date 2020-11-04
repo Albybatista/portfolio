@@ -1,0 +1,54 @@
+.social-btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    font-family: 'Encode Sans', sans-serif !important;
+    background: #495057;
+    color: #ff9100;
+}
+
+/* ff9100 */
+
+.mainPic {
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 4%;
+}
+
+.abtMe, .exp {
+    display: flex;
+}
+
+.skillsIcons1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillsIcons2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    padding: 4%;
+}
+
+@media (min-width: 992px) #navbarNav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.repoLink {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projects {
+    margin: 3%;
+}
+
+.abtMePara {
+    padding: 2%
+}
