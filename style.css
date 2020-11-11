@@ -5,8 +5,6 @@
 
 body {
     font-family: 'Encode Sans', sans-serif !important;
-    background: #495057;
-    color: #ff9100;
 }
 
 /* ff9100 */
@@ -36,7 +34,7 @@ body {
 }
 
 @media (min-width: 992px) #navbarNav {
-    display: flex;
+    display: flex !important;
     justify-content: flex-end;
 }
 
@@ -51,4 +49,18 @@ body {
 
 .abtMePara {
     padding: 2%
+}
+
+.socialsIcons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.stackUsed {
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutMeSocials {
+    padding: 2%;
 }
