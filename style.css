@@ -94,3 +94,8 @@ body {
 /* .fa-github-square:hover {
     color: 
 } */
+
+
+.card-text {
+    font-size: large !important;
+}
