@@ -4,7 +4,8 @@
 }
 
 body {
-    font-family: 'Encode Sans', sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: large;
 }
 
 /* ff9100 */
@@ -15,13 +16,15 @@ body {
     border-radius: 4%;
 }
 
-.abtMe, .exp {
+.abtMe, 
+.exp {
     display: flex;
 }
 
 .skillsIcons1 {
     display: flex;
     justify-content: space-evenly;
+    padding: 10px;
 
 }
 
@@ -29,6 +32,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 15px;
+    margin: 1%;
 }
 
 .navbar {
@@ -77,3 +81,16 @@ body {
     justify-content: center;
     margin: 10px;
 }
+
+.navbar-brand {
+    font-family: 'Rock Salt', cursive !important;
+}
+
+.fa-github-square, 
+.appTitle {
+    color: white;
+}
+
+/* .fa-github-square:hover {
+    color: 
+} */
