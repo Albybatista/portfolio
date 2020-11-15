@@ -1,11 +1,11 @@
-.social-btns {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 body {
     font-family: 'Lato', sans-serif !important;
     font-size: medium;
+}
+
+.social-btns {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .abtMe, 
