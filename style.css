@@ -5,15 +5,7 @@
 
 body {
     font-family: 'Lato', sans-serif !important;
-    font-size: large;
-}
-
-/* ff9100 */
-
-.mainPic {
-    max-width: 400px;
-    padding: 10px;
-    border-radius: 4%;
+    font-size: medium;
 }
 
 .abtMe, 
@@ -36,12 +28,39 @@ body {
 }
 
 .navbar {
-    padding: 4%;
+    padding: 2%;
 }
 
-@media only screen and (min-width: 992px) #navbarNav {
-    display: flex !important;
-    justify-content: flex-end;
+@media only screen and (min-width: 992px)  {
+    #navbarNav { 
+    display: flex!important;
+    justify-content: flex-end!important;
+    }
+    .mainPic {
+        max-width: 500px;
+        max-height: 500px;
+        border-bottom-right-radius: .25rem;
+        border-bottom-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        border-top-left-radius: .25rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #about {
+        display: grid !important;
+        justify-content: flex-end !important;
+    }
+    .mainPic {
+        display: flex;
+        justify-content: center;
+        border-bottom-right-radius: .25rem ;
+        border-bottom-left-radius: .25rem;
+        border-top-right-radius: .25rem !important;
+        border-top-left-radius: .25rem !important;
+        margin: auto;
+        padding-top: 2rem !important;
+       }
 }
 
 .repoLink {
@@ -54,7 +73,8 @@ body {
 }
 
 .abtMePara {
-    padding: 2%
+    padding: 2%;
+    margin-right: 1em;
 }
 
 .socialsIcons {
@@ -84,6 +104,7 @@ body {
 
 .navbar-brand {
     font-family: 'Rock Salt', cursive !important;
+    margin-left: 2%;
 }
 
 .fa-github-square, 
@@ -91,11 +112,35 @@ body {
     color: white;
 }
 
-/* .fa-github-square:hover {
-    color: 
-} */
-
-
 .card-text {
     font-size: large !important;
 }
+
+.card-body {
+    padding: 2%;
+}
+
+#about {
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.abtMeHeader {
+    padding-top: 2%;
+}
+
+#aboutMeSocials {
+    color: black;
+}
+
+.resumeText {
+    color: white;
+}
+
+#sectionTitle {
+    padding-bottom: 2%;
+}
+
+/* .fa-github-square:hover {
+    color: 
+} */

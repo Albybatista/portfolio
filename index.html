@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       
     <!-- DEVICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <!-- FAVICON -->
-    <!-- <link rel="icon" href="https://i.imgur.com/8U6wy3K.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <link rel="icon" href="https://i.imgur.com/8U6wy3K.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,7 +27,6 @@
     <script src="app.js"></script>
     <title>Alby Batista</title>
 </head>
-
 <body>
     <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-light">
@@ -53,94 +51,80 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <button type="button" class="btn btn-dark" ><a target="blank" href="resume.pdf">Resume</a></button>
+              <button type="button" class="btn btn-dark" ><a target="blank" href="resume.pdf" class="resumeText">Resume</a></button>
             </li>
           </ul>
     </div>  
 </nav>
   <!-- ABOUT ME -->
+   <!-- <h2 class="abtMeHeader text-center" id="sectionTitle">
+            About
+          </h2> -->
   <div class="abtMe" id="about">
     <!-- IMAGE ON LEFT -->
-      <img src="public/about_me_pic.png" class="mainPic">
-        <div class="abtMePara">
-          <h2 class="abtMeHeader text-center">
-            About Me
-          </h2>
-    <p>
-        Hello, there! <br/> 
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        I'm Alby and I'm a creative, solutions-oriented software developer. As a developer, my favorite place is a blank text editor. Being a kinesthetic learner, all I’ve known from a young age has been how to build and break things in order to just recreate them. One of the most gratifying feelings is coming up with a creative solution to a problem while collaborating with others. Currently, what I enjoy most as a developer is the ability to have a hands on approach to how things work and how they can be improved.  
-        <br/>  
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        I'm looking to combine my experiences with people, in sales, business, and software development in order to maximize overall company efficiency. Being a great communicator and having a people-first mentality has paved the way for most of my successes. This outlook has allowed me to think like a user, the experience, and finally, as a business as well.
-    </p>
-    <div class="socialsIcons">
-      <a class="fab fa-github fa-lg" href="https://github.com/albybatista" target="_blank" id="aboutMeSocials">
-      </a>
-      <a class="fab fa-linkedin-in fa-lg" href="https://www.linkedin.com/in/albybatista/" target="_blank" id="aboutMeSocials">
-      </a>
-      <a class="fas fa-envelope fa-lg" href="mailto:albybatista@gmail.com" id="aboutMeSocials">
-      </a>
-    </div>
+    <img src="public/about_me_pic.png" class="mainPic">
+      <div class="abtMePara">
+        <p>
+            <h3>I'm Alby</h3>
+            <br/>
+            I'm a creative, solutions-oriented software developer. As a developer, my favorite place is a blank text editor. Being a kinesthetic learner, all I’ve known from a young age has been how to build and break things in order to just recreate them. One of the most gratifying feelings is coming up with a creative solution to a problem while collaborating with others. Currently, what I enjoy most as a developer is the ability to have a hands on approach to how things work and how they can be improved.  
+            <br/>
+            <br/> 
+            I'm looking to combine my experiences with people, in sales, business, and software development in order to maximize overall company efficiency. Being a great communicator and having a people-first mentality has paved the way for most of my successes. This outlook has allowed me to think like a user, the experience, and finally, as a business as well.
+        </p>
+        <div class="socialsIcons">
+          <a class="fab fa-github fa-lg" href="https://github.com/albybatista" target="_blank" id="aboutMeSocials">
+          </a>
+          <a class="fab fa-linkedin-in fa-lg" href="https://www.linkedin.com/in/albybatista/" target="_blank" id="aboutMeSocials">
+          </a>
+          <a class="fas fa-envelope fa-lg" href="mailto:albybatista@gmail.com" id="aboutMeSocials">
+          </a>
+        </div>
       </div>
     </div>
-    <!-- IMAGE ON RIGHT -->
-    <!-- BLOCK TEXT  -->
-    <!-- <div class="text-center">
-    <p>
-      <h2>Where I've Been</h2>
-        Additional text on the site.
-    </p>
-    </div> -->
     <hr></hr>
     <!-- PROJECTS DISPLAYED -->
     <div class="projects" id="creations">
-    <h2 class="text-center">Builder's Block</h2>
-    <p class="text-center">A few things that I have built</p>
-  <!-- Card Dark -->
+    <h2 class="text-center" id="sectionTitle">Builder's Block</h2>
+
+  <!-- CARD DARK -->
 <div class="card">
-  <!-- Card image 1 -->
+  <!-- CARD IMAGE 1 -->
   <div class="view overlay">
     <img class="card-img-top" src="public/destinationratr.png" alt="Destination Ratr App Picture">
     <a>
       <div class="mask rgba-white-slight"></div>
     </a>
   </div>
-  <!-- Card content -->
+  <!-- CARD CONTENT 1 -->
   <div class="card-body elegant-color white-text rounded-bottom">
-    <!-- Social shares button -->
+    <!-- LINK TO LIVE SITE -->
     <a class="activator waves-effect mr-4"></a>
-    <!-- Title -->
+    <!-- TITLE -->
     <h4 class="card-title">
       <a href="https://destination-ratr.netlify.app/" target="_blank" class="appTitle">Destination Ratr</a>
     </h4>
     <hr class="hr-light">
-    <!-- Text -->
-    <p class="card-text white-text mb-4">Blog site where users can rate and post their travel experiences.
+    <!-- TEXT -->
+    <p class="card-text white-text mb-4">A collaborative project and single-page application where users can rate and post their travel experiences in a blog-like manner. This was built with create-react-app on the front-end, PHP on the back-end. We created our own API and tables to make this possible with PostgreSQL as the database. The PHP back-end was deployed with Heroku and the front-end was deployed with Netlify. 
       <br/>
       <br/>
-      <p class="stackUsed">
-        Backend - PHP Frontend - React Database - PostgreSQL
+      <p class="stackUsed"> 
+        Frontend - React
+        &nbsp; 
+        Backend - PHP 
+        &nbsp; 
+        Database - PostgreSQL
         <a href="https://github.com/sammyschneider/Destination_Ratr" target="_blank">
           <i class="fab fa-github-square fa-2x"></i>
         </a>
       </p>
     </p>
-    <!-- Link -->
-    <!-- <a href="#!" class="white-text d-flex justify-content-end">
-      <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-    </a> -->
   </div>
 </div>
   <hr></hr>
 <div class="card">
-  <!-- Card image -->
+  <!-- CARD IMAGE 2 -->
   <div class="view overlay">
     <img class="card-img-top" src="public/scriven.png"
       alt="Scriven App Picture">
@@ -148,35 +132,36 @@
       <div class="mask rgba-white-slight"></div>
     </a>
   </div>
-  <!-- Card content -->
+  <!-- CARD CONTENT 2 -->
   <div class="card-body elegant-color white-text rounded-bottom">
-    <!-- Social shares button -->
+    <!-- LINK TO LIVE SITE -->
     <a class="activator waves-effect mr-4"></a>
-    <!-- Title -->
+    <!-- TITLE -->
     <h4 class="card-title">
       <a href="https://scrivenapp.herokuapp.com" target="_blank" class="appTitle">Scriven</a>
     </h4>
     <hr class="hr-light">
-    <!-- Text -->
-    <p class="card-text white-text mb-4">Notes app that integrates code with regular text. Built using the PERN stack.
+    <!-- TEXT -->
+    <p class="card-text white-text mb-4">
+      Notes app that integrates code blocks with regular text. This app was built with the PERN stack which includes Express and Node.js using React, and PostgreSQL as the database.
       <br/>
       <br/>
       <p class="stackUsed">
-        Backend - Express/Node.js Frontend - React Database - PostgreSQL
+        Frontend - React 
+        &nbsp;
+        Backend - Express/Node.js 
+        &nbsp;
+        Database - PostgreSQL
         <a href="https://github.com/Albybatista/scriven" target="_blank">
           <i class="fab fa-github-square fa-2x"></i>
         </a>
       </p>
     </p>
-    <!-- Link -->
-    <!-- <a href="#!" class="white-text d-flex justify-content-end">
-      <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-    </a> -->
   </div>
 </div>
     <hr></hr>
 <div class="card">
-  <!-- Card image -->
+  <!-- CARD IMAGE 3 -->
   <div class="view overlay">
     <img class="card-img-top" src="public/iconicbaseball.png"
       alt="Iconic Baseball App Picture">
@@ -184,24 +169,28 @@
       <div class="mask rgba-white-slight"></div>
     </a>
   </div>
-  <!-- Card content -->
+  <!-- CARD CONTENT 3 -->
   <div class="card-body elegant-color white-text rounded-bottom">
-    <!-- Social shares button -->
+    <!-- LINK TO LIVE SITE -->
     <a class="activator waves-effect mr-4"></a>
-    <!-- Title -->
+    <!-- TITLE -->
     <h4 class="card-title">
       <a href="https://iconicbaseball.herokuapp.com/baseballs/5f6ac5771635456d81e52e3f/landing" target="_blank" class="appTitle">
         Iconic Baseball
       </a>
     </h4>
       <hr class="hr-light">
-    <!-- Text -->
+    <!-- TEXT -->
     <p class="card-text white-text mb-4">
-      Web app where users can post images capturing baseball’s most iconic moments. Built with the MERN stack. 
+      A multi-page application with multiple routes where users can post images that captured baseball’s most iconic moments. The landing page features a carousel of of three images in order to ease the eyes at first glance. The app features a fully self-built database with images, dates, and descriptions that describe the events that occured. This app was built with Express and Node.js using JavaScript with EJS templating, and MongoDB as the database.
       <br/>
       <br/>
         <p class="stackUsed">
-          Backend - Express/Node.js Frontend - JavaScript/EJS Database - MongoDB
+          Frontend - JavaScript/EJS  
+          &nbsp;
+          Backend - Express/Node.js
+          &nbsp;
+          Database - MongoDB
           <a href="https://github.com/Albybatista/iconicbaseball" target="_blank">
             <i class="fab fa-github-square fa-2x"></i>
           </a>
@@ -210,10 +199,9 @@
 </div>
   </div>
 </div>
-    <!-- DIVIDER -->
     <hr/>
-    <!-- LANGUAGES & FRAMEWORK ICONS -->
-    <h2 class="text-center" id="skills">Skills</h2>
+    <!-- SKILLS LANGUAGES & FRAMEWORK ICONS -->
+    <h2 class="text-center" id="sectionTitle">Skills</h2>
       <div class="skillsIcons1">
         <div>
           <i class="devicon-javascript-plain colored fa-3x"></i>
@@ -298,7 +286,7 @@
       </div>
     <!-- FOOTER W/ LINKS -->
 <footer class="page-footer font-small special-color-dark pt-4">
-  <h2 class="text-center">Let's Connect</h2>
+  <h2 class="text-center" >Let's Connect</h2>
   <br/>
   <!-- FOOTER CONTAINER -->
   <div class="container">
