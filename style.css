@@ -31,7 +31,26 @@ body {
     padding: 2%;
 }
 
-@media only screen and (min-width: 992px)  {
+@media only screen and (max-width: 767px) {
+    .mainPic {
+        max-width: 330px;
+        max-height: 330px;
+        border-bottom-right-radius: .25rem;
+        border-bottom-left-radius: .25rem;
+        border-top-right-radius: .25rem !important;
+        border-top-left-radius: .25rem !important;
+        
+    }
+    .skillsIcons1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .skillsIcons2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width: 992px) {
     #navbarNav { 
     display: flex!important;
     justify-content: flex-end!important;
@@ -60,7 +79,7 @@ body {
         border-top-left-radius: .25rem !important;
         margin: auto;
         padding-top: 2rem !important;
-       }
+    }
 }
 
 .repoLink {
