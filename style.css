@@ -31,87 +31,6 @@ body {
     padding: 2%;
 }
 
-@media only screen and (max-width: 767px) {
-    .mainPic {
-        max-width: 330px;
-        max-height: 330px;
-        border-bottom-right-radius: .25rem;
-        border-bottom-left-radius: .25rem;
-        border-top-right-radius: .25rem !important;
-        border-top-left-radius: .25rem !important;
-        
-    }
-    .skillsIcons1 {
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 13%;
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-    .skillsIcons2 {
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 13%;
-        padding-bottom: 0;
-        padding-top: 0;
-        justify-content: space-around;
-    }
-    .sassDiv {
-        visibility: hidden;
-    }
-    #aboutMeSocials {
-        padding: 2% !important;
-    }
-    .card-body {
-        padding: 1rem !important;
-    }
-    .stackUsed {
-        display: flex;
-        justify-content: flex-end !important;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-    .abtMePara {
-        padding: 5% !important;
-    }
-}
-@media only screen and (min-width: 992px) {
-    #navbarNav { 
-    display: flex!important;
-    justify-content: flex-end!important;
-    }
-    .mainPic {
-        max-width: 500px;
-        max-height: 500px;
-        border-bottom-right-radius: .25rem;
-        border-bottom-left-radius: .25rem;
-        border-top-right-radius: .25rem;
-        border-top-left-radius: .25rem;
-    }
-}
-
-@media only screen and (max-width: 991px) {
-    #about {
-        display: grid !important;
-        justify-content: flex-end !important;
-    }
-    .mainPic {
-        display: flex;
-        justify-content: center;
-        border-bottom-right-radius: .25rem ;
-        border-bottom-left-radius: .25rem;
-        border-top-right-radius: .25rem !important;
-        border-top-left-radius: .25rem !important;
-        margin: auto;
-        padding-top: 2rem !important;
-    }
-}
-
-.repoLink {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .projects {
     margin: 3%;
 }
@@ -183,6 +102,92 @@ body {
 
 #sectionTitle {
     padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 767px) {
+    .mainPic {
+        max-width: 330px;
+        max-height: 330px;
+        border-bottom-right-radius: .25rem;
+        border-bottom-left-radius: .25rem;
+        border-top-right-radius: .25rem !important;
+        border-top-left-radius: .25rem !important;
+
+    }
+
+    .skillsIcons1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 13%;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .skillsIcons2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 13%;
+        padding-bottom: 0;
+        padding-top: 0;
+        justify-content: space-around;
+    }
+
+    .sassDiv {
+        visibility: hidden;
+    }
+
+    #aboutMeSocials {
+        padding: 2% !important;
+    }
+
+    .card-body {
+        padding: 1rem !important;
+    }
+
+    .stackUsed {
+        display: flex;
+        justify-content: flex-end !important;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .abtMePara {
+        padding: 5% !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #navbarNav {
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+
+    .mainPic {
+        max-width: 500px;
+        max-height: 500px;
+        border-bottom-right-radius: .25rem;
+        border-bottom-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        border-top-left-radius: .25rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #about {
+        display: grid !important;
+        justify-content: flex-end !important;
+    }
+
+    .mainPic {
+        display: flex;
+        justify-content: center;
+        border-bottom-right-radius: .25rem;
+        border-bottom-left-radius: .25rem;
+        border-top-right-radius: .25rem !important;
+        border-top-left-radius: .25rem !important;
+        margin: auto;
+        padding-top: 2rem !important;
+    }
 }
 
 /* .fa-github-square:hover {
