@@ -71,6 +71,9 @@ body {
         flex-wrap: wrap;
         flex-direction: row;
     }
+    .abtMePara {
+        padding: 5% !important;
+    }
 }
 @media only screen and (min-width: 992px) {
     #navbarNav { 
