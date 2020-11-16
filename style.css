@@ -44,10 +44,32 @@ body {
     .skillsIcons1 {
         flex-direction: row;
         flex-wrap: wrap;
+        padding: 13%;
+        padding-bottom: 0;
+        padding-top: 0;
     }
     .skillsIcons2 {
         flex-direction: row;
         flex-wrap: wrap;
+        padding: 13%;
+        padding-bottom: 0;
+        padding-top: 0;
+        justify-content: space-around;
+    }
+    .sassDiv {
+        visibility: hidden;
+    }
+    #aboutMeSocials {
+        padding: 2% !important;
+    }
+    .card-body {
+        padding: 1rem !important;
+    }
+    .stackUsed {
+        display: flex;
+        justify-content: flex-end !important;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 }
 @media only screen and (min-width: 992px) {
