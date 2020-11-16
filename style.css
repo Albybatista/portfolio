@@ -104,6 +104,17 @@ body {
     padding-bottom: 2%;
 }
 
+@media only screen and (min-width: 768px) {
+    .mainPic {
+        max-width: 650px;
+        max-height: 600px;
+        border-bottom-right-radius: .25rem;
+        border-bottom-left-radius: .25rem;
+        border-top-right-radius: .25rem !important;
+        border-top-left-radius: .25rem !important;
+
+    }
+}
 @media only screen and (max-width: 767px) {
     .mainPic {
         max-width: 330px;
@@ -163,12 +174,13 @@ body {
     }
 
     .mainPic {
-        max-width: 500px;
+        max-width: 520px;
         max-height: 500px;
         border-bottom-right-radius: .25rem;
         border-bottom-left-radius: .25rem;
         border-top-right-radius: .25rem;
         border-top-left-radius: .25rem;
+        margin: auto;
     }
 }
 
@@ -189,6 +201,8 @@ body {
         padding-top: 2rem !important;
     }
 }
+
+
 
 /* .fa-github-square:hover {
     color: 
