@@ -182,6 +182,10 @@ body {
         border-top-left-radius: .25rem;
         margin: auto;
     }
+    .abtMePara {
+        padding-left: 2%;
+        margin-right: 1em;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -202,7 +206,30 @@ body {
     }
 }
 
+@media only screen and (min-width: 414px) and (max-width : 767px) and (orientation : portrait) {
+    .mainPic {
+        max-width: 400px;
+        max-height: 400px;
+        padding: 2% !important;
+        margin: 0 !important;
+    }
+    .skillsIcons1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 17%;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
 
+    .skillsIcons2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 17%;
+        padding-bottom: 0;
+        padding-top: 0;
+        justify-content: space-around;
+    }
+}
 
 /* .fa-github-square:hover {
     color: 
