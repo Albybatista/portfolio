@@ -17,7 +17,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-
 }
 
 .skillsIcons2 {
@@ -100,6 +99,7 @@ body {
     color: white;
 }
 
+#skills,
 #sectionTitle {
     padding-bottom: 2%;
 }
@@ -125,7 +125,6 @@ body {
         border-top-left-radius: .25rem !important;
 
     }
-
     .skillsIcons1 {
         flex-direction: row;
         flex-wrap: wrap;
@@ -133,7 +132,6 @@ body {
         padding-bottom: 0;
         padding-top: 0;
     }
-
     .skillsIcons2 {
         flex-direction: row;
         flex-wrap: wrap;
@@ -142,26 +140,21 @@ body {
         padding-top: 0;
         justify-content: space-around;
     }
-
-    .bootstrapDiv {
+    .jQueryDiv {
         visibility: hidden;
     }
-
     #aboutMeSocials {
         padding: 2% !important;
     }
-
     .card-body {
         padding: 1rem !important;
     }
-
     .stackUsed {
         display: flex;
         justify-content: flex-end !important;
         flex-wrap: wrap;
         flex-direction: row;
     }
-
     .abtMePara {
         padding: 5% !important;
     }
@@ -172,7 +165,6 @@ body {
         display: flex !important;
         justify-content: flex-end !important;
     }
-
     .mainPic {
         max-width: 520px;
         max-height: 500px;
@@ -193,7 +185,6 @@ body {
         display: grid !important;
         justify-content: flex-end !important;
     }
-
     .mainPic {
         display: flex;
         justify-content: center;
@@ -220,7 +211,6 @@ body {
         padding-bottom: 0;
         padding-top: 0;
     }
-
     .skillsIcons2 {
         flex-direction: row;
         flex-wrap: wrap;
