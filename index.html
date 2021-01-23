@@ -29,7 +29,7 @@
 </head>
 <body>
   <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
   <a class="navbar-brand" href="#home">
     <strong>Alby Batista</strong>
   </a>
@@ -79,13 +79,14 @@
         </div>
       </div>
     </div>
-    <hr></hr>
-    <!-- PROJECTS DISPLAYED -->
-    <div class="projects" id="creations">
-      <h2 class="text-center" id="sectionTitle">Builder's Block
-      </h2>
+  <hr></hr>
+  <!-- PROJECTS DISPLAYED -->
+  <h2 class="text-center" id="sectionTitle">
+        Projects
+  </h2>
+  <div class="projects" id="creations">   
   <!-- CARD DARK -->
-<div class="card">
+  <div class="card">
   <!-- CARD IMAGE 1 -->
   <div class="view overlay">
     <img class="card-img-top" src="public/destinationratr.png" alt="Destination Ratr App Picture">
@@ -105,19 +106,27 @@
     <!-- TEXT -->
     <p class="card-text white-text mb-4">A collaborative project and single-page application where users can rate and post their travel experiences in a blog-like manner. This was built with create-react-app on the front-end, PHP on the back-end. We created our own API and tables to make this possible with PostgreSQL as the database. The PHP back-end was deployed with Heroku and the front-end was deployed with Netlify. 
       <br/>
-      <br/>
       <p class="stackUsed"> 
         Frontend - React
         &nbsp; 
         Backend - PHP 
         &nbsp; 
         Database - PostgreSQL
+      <div class="projectLinks">
         <a href="https://github.com/sammyschneider/Destination_Ratr" target="_blank">
-          <i class="fab fa-github-square fa-2x"></i>
+          <i class="fab fa-github fa-1x"></i>
+            &nbsp;
+            &nbsp; 
+            GitHub Repo
         </a>
-        <!-- <a href="https://destination-ratr.netlify.app/" target="_blank">
-        <i class="fas fa-terminal"></i>
-        </a> -->
+        <br />
+        <a href="https://destination-ratr.netlify.app/" target="_blank">
+        <i class="fas fa-code fa-1x"></i>
+          &nbsp;
+          &nbsp; 
+          Live Site
+        </a>
+      </div>
       </p>
     </p>
   </div>
@@ -147,19 +156,27 @@
     <p class="card-text white-text mb-4">
       Notes app that integrates code blocks with regular text. This app was built with the PERN stack which includes Express and Node.js using React, and PostgreSQL as the database.
       <br/>
-      <br/>
       <p class="stackUsed">
         Frontend - React 
         &nbsp;
         Backend - Express/Node.js 
         &nbsp;
         Database - PostgreSQL
+        <div class="projectLinks">
         <a href="https://github.com/Albybatista/scriven" target="_blank">
-          <i class="fab fa-github-square fa-2x"></i>
+          <i class="fab fa-github fa-1x"></i>
+            &nbsp;
+            &nbsp; 
+            GitHub Repo
         </a>
-        <!-- <a href="https://scrivenapp.herokuapp.com/" target="_blank">
-          <i class="fas fa-terminal"></i>
-        </a> -->
+        <br />
+        <a href="https://scrivenapp.herokuapp.com/" target="_blank">
+          <i class="fas fa-code fa-1x"></i>
+            &nbsp;
+            &nbsp; 
+            Live Site
+        </a>
+        </div>
       </p>
     </p>
   </div>
@@ -191,19 +208,27 @@
     <p class="card-text white-text mb-4">
       A multi-page application with multiple routes where users can post images that captured baseball’s most iconic moments. The landing page features a carousel of of three images in order to ease the eyes at first glance. It contains a fully self-built database with images, dates, and descriptions that describe the events that occured. This app was built with Express and Node.js using JavaScript with EJS templating and MongoDB as the database.
       <br/>
-      <br/>
         <p class="stackUsed">
           Frontend - JavaScript/EJS  
           &nbsp;
           Backend - Express/Node.js
           &nbsp;
           Database - MongoDB
+          <div class="projectLinks">
           <a href="https://github.com/Albybatista/iconicbaseball" target="_blank">
-            <i class="fab fa-github-square fa-2x"></i>
+            <i class="fab fa-github fa-1x"></i>
+              &nbsp;
+              &nbsp; 
+              GitHub Repo
           </a>
-         <!-- <a href="https://iconicbaseball.herokuapp.com/baseballs/5f6ac5771635456d81e52e3f/landing" target="_blank">
-          <i class="fas fa-terminal"></i>
-         </a> -->
+          <br />
+          <a href="https://iconicbaseball.herokuapp.com/baseballs/5f6ac5771635456d81e52e3f/landing" target="_blank">
+            <i class="fas fa-code fa-1x"></i>
+              &nbsp;
+              &nbsp; 
+              Live Site
+         </a>
+         </div> 
         </p>
     </p>
 </div>
@@ -296,7 +321,7 @@
       </div>
     <!-- FOOTER W/ LINKS -->
 <footer class="page-footer font-small special-color-dark pt-4">
-  <h2 class="text-center" >Let's Connect</h2>
+  <h2 class="text-center">Let's Connect</h2>
   <br/>
   <!-- FOOTER CONTAINER -->
   <div class="container">
