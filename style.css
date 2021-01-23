@@ -77,12 +77,12 @@ body {
     color: white;
 }
 
-.card {
+/* .card {
     height: 800px;
     width: 800px;
     margin-left: 15%;
     margin-right: 15%;
-}
+} */
 
 
 .card-text {
@@ -175,6 +175,10 @@ body {
     }
     .abtMePara {
         padding: 5% !important;
+    }
+    .card {
+        
+        margin: ;
     }
 }
 
