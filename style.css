@@ -46,11 +46,6 @@ body {
     justify-content: flex-end;
 }
 
-/* .stackUsed {
-    display: flex;
-    justify-content: space-between;
-} */
-
 #aboutMeSocials {
     padding: 2%;
 }
@@ -76,14 +71,6 @@ body {
 .appTitle {
     color: white;
 }
-
-/* .card {
-    height: 800px;
-    width: 800px;
-    margin-left: 15%;
-    margin-right: 15%;
-} */
-
 
 .card-text {
     font-size: large !important;
@@ -242,7 +229,3 @@ body {
         justify-content: space-around;
     }
 }
-
-/* .fa-github-square:hover {
-    color: 
-} */
