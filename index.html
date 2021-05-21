@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alby Batista - Software Engineer</title>
-    <meta property="og:image" content="https://www.albybatista.com/public/about_me_pic1.jpg">
+    <meta property="og:image" content="https://www.albybatista.com/public/about-img.jpg">
     <meta property="og:url" content="https://www.albybatista.com/">
     <meta property="og:type" content="website">
     <meta name="author" content="Alby Batista">
@@ -34,50 +34,53 @@
 </head>
 <body>
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-light sticky-top">
-  <a class="navbar-brand" href="#home">
-    <strong>Alby Batista</strong>
-  </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <a class="navbar-brand" href="#home">
+      <strong>Alby Batista</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#creations">Creations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="btn btn-dark" id="resume-btn">
-                <a target="blank" href="resume.pdf" class="resumeText">Resume</a>
-              </button>
-            </li>
-          </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#creations">Creations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-dark" id="resume-btn">
+            <a target="blank" href="resume.pdf" class="resumeWord">Resume</a>
+          </button>
+        </li>
+      </ul>
     </div>  
-</nav>
+  </nav>
+</header>
 <!-- HERO SECTION -->
-<section class="hero-section">
-  <a href="#about">
-    <div class="hero-contents">
-      <h1 class="hero-name">Alby Batista</h1>
-      <h2 class="hero-title">Software Engineer</h2>
-      <i class="fas fa-caret-down fa-4x" id="hero-arrow"></i>
-    </div>
-  </a>
-</section>
+<main>
+  <section class="hero-section">
+    <a href="#about">
+      <div class="hero-contents">
+        <h1 class="hero-name">Alby Batista</h1>
+        <h2 class="hero-title">Software Engineer</h2>
+        <i class="fas fa-caret-down fa-4x" id="hero-arrow"></i>
+      </div>
+    </a>
+  </section>
   <!-- ABOUT ME -->
-  <div class="abtMe" id="about">
+  <div class="about-me" id="about">
     <!-- IMAGE ON LEFT -->
-    <img src="public/about_me_pic1.jpg" class="mainPic">
-      <div class="abtMePara">
+    <img src="public/about-img.jpg" class="about-img">
+      <div class="about-para">
         <p>
             <h3>I'm Alby</h3>
             <br/>
@@ -96,254 +99,255 @@
         </div>
       </div>
     </div>
-  <hr></hr>
-  <!-- PROJECTS DISPLAYED -->
-  <h2 class="text-center" id="sectionTitle">
-        Projects
-  </h2>
-  <div class="projects" id="creations">   
-  <!-- CARD DARK -->
-  <div class="card">
-  <!-- CARD IMAGE 1 -->
-  <div class="view overlay">
-    <img class="card-img-top" src="public/destinationratr.png" alt="Destination Ratr App Picture">
-    <a href="https://destination-ratr.netlify.app/" target="_blank">
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-  <!-- CARD CONTENT 1 -->
-  <div class="card-body elegant-color white-text rounded-bottom">
-    <!-- LINK TO LIVE SITE -->
-    <a class="activator waves-effect mr-4"></a>
-    <!-- TITLE -->
-    <h4 class="card-title">
-      <a href="https://destination-ratr.netlify.app/" target="_blank" class="appTitle">Destination Ratr</a>
-    </h4>
-    <hr class="hr-light">
-    <!-- TEXT -->
-    <p class="card-text white-text mb-4">A collaborative project and single-page application where users can rate and post their travel experiences in a blog-like manner. This was built with create-react-app on the front-end, PHP on the back-end. We created our own API and tables to make this possible with PostgreSQL as the database. The PHP back-end was deployed with Heroku and the front-end was deployed with Netlify. 
-      <br/>
-      <p class="stackUsed"> 
-        Frontend - React
-        &nbsp; 
-        Backend - PHP 
-        &nbsp; 
-        Database - PostgreSQL
-      <div class="projectLinks">
-        <a href="https://github.com/sammyschneider/Destination_Ratr" target="_blank">
-          <i class="fab fa-github fa-1x"></i>
-            &nbsp;
-            &nbsp; 
-            GitHub Repo
-        </a>
-        <br />
-        <a href="https://destination-ratr.netlify.app/" target="_blank">
-        <i class="fas fa-code fa-1x"></i>
-          &nbsp;
-          &nbsp; 
-          Live Site
-        </a>
-      </div>
-      </p>
-    </p>
-  </div>
-</div>
-<br/>
-  <hr></hr>
-<br/>
-<div class="card">
-  <!-- CARD IMAGE 2 -->
-  <div class="view overlay">
-    <img class="card-img-top" src="public/scriven.png"
-      alt="Scriven App Picture">
-    <a href="https://scrivenapp.herokuapp.com/" target="_blank">
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-  <!-- CARD CONTENT 2 -->
-  <div class="card-body elegant-color white-text rounded-bottom">
-    <!-- LINK TO LIVE SITE -->
-    <a class="activator waves-effect mr-4"></a>
-    <!-- TITLE -->
-    <h4 class="card-title">
-      <a href="https://scrivenapp.herokuapp.com" target="_blank" class="appTitle">Scriven</a>
-    </h4>
-    <hr class="hr-light">
-    <!-- TEXT -->
-    <p class="card-text white-text mb-4">
-      Notes app that integrates code blocks with regular text. This app was built with the PERN stack which includes Express and Node.js using React, and PostgreSQL as the database.
-      <br/>
-      <p class="stackUsed">
-        Frontend - React 
-        &nbsp;
-        Backend - Express/Node.js 
-        &nbsp;
-        Database - PostgreSQL
-        <div class="projectLinks">
-        <a href="https://github.com/Albybatista/scriven" target="_blank">
-          <i class="fab fa-github fa-1x"></i>
-            &nbsp;
-            &nbsp; 
-            GitHub Repo
-        </a>
-        <br />
-        <a href="https://scrivenapp.herokuapp.com/" target="_blank">
-          <i class="fas fa-code fa-1x"></i>
-            &nbsp;
-            &nbsp; 
-            Live Site
-        </a>
-        </div>
-      </p>
-    </p>
-  </div>
-</div>
-<br/>
     <hr></hr>
-<br/>
-<div class="card">
-  <!-- CARD IMAGE 3 -->
-  <div class="view overlay">
-    <img class="card-img-top" src="public/iconicbaseball.png"
-      alt="Iconic Baseball App Picture">
-    <a href="https://iconicbaseball.herokuapp.com/baseballs" target="_blank">
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-  <!-- CARD CONTENT 3 -->
-  <div class="card-body elegant-color white-text rounded-bottom">
-    <!-- LINK TO LIVE SITE -->
-    <a class="activator waves-effect mr-4"></a>
-    <!-- TITLE -->
-    <h4 class="card-title">
-      <a href="https://iconicbaseball.herokuapp.com/baseballs/5f6ac5771635456d81e52e3f/landing" target="_blank" class="appTitle">
-        Iconic Baseball
-      </a>
-    </h4>
-      <hr class="hr-light">
-    <!-- TEXT -->
-    <p class="card-text white-text mb-4">
-      A multi-page application with multiple routes where users can post images that captured baseball’s most iconic moments. The landing page features a carousel of of three images in order to ease the eyes at first glance. It contains a fully self-built database with images, dates, and descriptions that describe the events that occured. This app was built with Express and Node.js using JavaScript with EJS templating and MongoDB as the database.
-      <br/>
-        <p class="stackUsed">
-          Frontend - JavaScript/EJS  
-          &nbsp;
-          Backend - Express/Node.js
-          &nbsp;
-          Database - MongoDB
-          <div class="projectLinks">
-          <a href="https://github.com/Albybatista/iconicbaseball" target="_blank">
-            <i class="fab fa-github fa-1x"></i>
-              &nbsp;
-              &nbsp; 
-              GitHub Repo
-          </a>
-          <br />
-          <a href="https://iconicbaseball.herokuapp.com/baseballs/5f6ac5771635456d81e52e3f/landing" target="_blank">
-            <i class="fas fa-code fa-1x"></i>
-              &nbsp;
-              &nbsp; 
-              Live Site
-         </a>
-         </div> 
+    <!-- PROJECTS DISPLAYED -->
+    <h2 class="text-center" id="projectsTitle">
+          Projects
+    </h2>
+    <div class="projects" id="creations">   
+      <!-- CARD DARK -->
+      <div class="card">
+      <!-- CARD IMAGE 1 -->
+      <div class="view overlay">
+        <img class="card-img-top" src="public/destinationratr.png" alt="Destination Ratr App Picture">
+        <a href="https://destination-ratr.netlify.app/" target="_blank">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <!-- CARD CONTENT 1 -->
+      <div class="card-body elegant-color white-text rounded-bottom">
+        <!-- LINK TO LIVE SITE -->
+        <a class="activator waves-effect mr-4"></a>
+        <!-- TITLE -->
+        <h4 class="card-title">
+          <a href="https://destination-ratr.netlify.app/" target="_blank" class="appTitle">Destination Ratr</a>
+        </h4>
+        <hr class="hr-light">
+        <!-- TEXT -->
+        <p class="card-text white-text mb-4">A collaborative project and single-page application where users can rate and post their travel experiences in a blog-like manner. This was built with create-react-app on the front-end, PHP on the back-end. We created our own API and tables to make this possible with PostgreSQL as the database. The PHP back-end was deployed with Heroku and the front-end was deployed with Netlify. 
+          <br/>
+          <p class="stackUsed"> 
+            Frontend - React
+            &nbsp; 
+            Backend - PHP 
+            &nbsp; 
+            Database - PostgreSQL
+            <div class="projectLinks">
+              <a href="https://github.com/sammyschneider/Destination_Ratr" target="_blank">
+                <i class="fab fa-github fa-1x"></i>
+                  &nbsp;
+                  &nbsp; 
+                  GitHub Repo
+              </a>
+              <br />
+              <a href="https://destination-ratr.netlify.app/" target="_blank">
+              <i class="fas fa-code fa-1x"></i>
+                &nbsp;
+                &nbsp; 
+                Live Site
+              </a>
+            </div>
+          </p>
         </p>
-    </p>
-</div>
-  </div>
-</div>
+      </div>
+    </div>
+    <br/>
+    <hr></hr>
+    <br/>
+    <div class="card">
+      <!-- CARD IMAGE 2 -->
+      <div class="view overlay">
+        <img class="card-img-top" src="public/scriven.png"
+          alt="Scriven App Picture">
+        <a href="https://scrivenapp.herokuapp.com/" target="_blank">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <!-- CARD CONTENT 2 -->
+      <div class="card-body elegant-color white-text rounded-bottom">
+        <!-- LINK TO LIVE SITE -->
+        <a class="activator waves-effect mr-4"></a>
+        <!-- TITLE -->
+        <h4 class="card-title">
+          <a href="https://scrivenapp.herokuapp.com" target="_blank" class="appTitle">Scriven</a>
+        </h4>
+        <hr class="hr-light">
+        <!-- TEXT -->
+        <p class="card-text white-text mb-4">
+          Notes app that integrates code blocks with regular text. This app was built with the PERN stack which includes Express and Node.js using React, and PostgreSQL as the database.
+          <br/>
+          <p class="stackUsed">
+            Frontend - React 
+            &nbsp;
+            Backend - Express/Node.js 
+            &nbsp;
+            Database - PostgreSQL
+            <div class="projectLinks">
+              <a href="https://github.com/Albybatista/scriven" target="_blank">
+                <i class="fab fa-github fa-1x"></i>
+                  &nbsp;
+                  &nbsp; 
+                  GitHub Repo
+              </a>
+              <br />
+              <a href="https://scrivenapp.herokuapp.com/" target="_blank">
+                <i class="fas fa-code fa-1x"></i>
+                  &nbsp;
+                  &nbsp; 
+                  Live Site
+              </a>
+            </div>
+          </p>
+        </p>
+      </div>
+    </div>
+    <br/>
+    <hr></hr>
+    <br/>
+    <div class="card">
+      <!-- CARD IMAGE 3 -->
+      <div class="view overlay">
+        <img class="card-img-top" src="public/iconicbaseball.png"
+          alt="Iconic Baseball App Picture">
+        <a href="https://iconicbaseball.herokuapp.com/baseballs" target="_blank">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <!-- CARD CONTENT 3 -->
+      <div class="card-body elegant-color white-text rounded-bottom">
+        <!-- LINK TO LIVE SITE -->
+        <a class="activator waves-effect mr-4"></a>
+        <!-- TITLE -->
+        <h4 class="card-title">
+          <a href="https://iconicbaseball.herokuapp.com/baseballs/5f6ac5771635456d81e52e3f/landing" target="_blank" class="appTitle">
+            Iconic Baseball
+          </a>
+        </h4>
+          <hr class="hr-light">
+        <!-- TEXT -->
+        <p class="card-text white-text mb-4">
+          A multi-page application with multiple routes where users can post images that captured baseball’s most iconic moments. The landing page features a carousel of of three images in order to ease the eyes at first glance. It contains a fully self-built database with images, dates, and descriptions that describe the events that occured. This app was built with Express and Node.js using JavaScript with EJS templating and MongoDB as the database.
+          <br/>
+            <p class="stackUsed">
+              Frontend - JavaScript/EJS  
+              &nbsp;
+              Backend - Express/Node.js
+              &nbsp;
+              Database - MongoDB
+              <div class="projectLinks">
+              <a href="https://github.com/Albybatista/iconicbaseball" target="_blank">
+                <i class="fab fa-github fa-1x"></i>
+                  &nbsp;
+                  &nbsp; 
+                  GitHub Repo
+              </a>
+              <br />
+              <a href="https://iconicbaseball.herokuapp.com/baseballs/5f6ac5771635456d81e52e3f/landing" target="_blank">
+                <i class="fas fa-code fa-1x"></i>
+                  &nbsp;
+                  &nbsp; 
+                  Live Site
+            </a>
+            </div> 
+            </p>
+        </p>
+      </div>
+    </div>
+    </div>
     <hr/>
-    <!-- SKILLS LANGUAGES & FRAMEWORK ICONS -->
-    <h2 class="text-center" id="skills">Skills</h2>
-      <div class="skillsIcons1">
-        <div>
-          <i class="devicon-javascript-plain colored fa-3x"></i>
-            <p class="skillsTitle">
-              JavaScript
-            </p>
+      <!-- SKILLS LANGUAGES & FRAMEWORK ICONS -->
+      <h2 class="text-center" id="skills">Skills</h2>
+        <div class="skillsIcons1">
+          <div>
+            <i class="devicon-javascript-plain colored fa-3x"></i>
+              <p class="skillsTitle">
+                JavaScript
+              </p>
+          </div>
+          <div>
+            <i class="devicon-react-original colored fa-3x"></i>
+              <p class="skillsTitle">
+                React
+              </p>
+          </div>
+          <div>
+            <i class="devicon-express-original colored fa-3x"></i>
+              <p class="skillsTitle">
+                Express
+              </p>
+          </div>
+          <div>
+            <i class="devicon-github-plain colored fa-3x"></i>
+              <p class="skillsTitle">
+                GitHub
+              </p>
+          </div>
+          <div>
+            <i class="devicon-mongodb-plain colored fa-3x"></i>
+              <p class="skillsTitle">
+                MongoDB
+              </p>
+          </div>
+          <div>
+            <i class="devicon-php-plain colored fa-3x"></i>
+              <p class="skillsTitle">
+                PHP
+              </p>
+          </div>
         </div>
-        <div>
-          <i class="devicon-react-original colored fa-3x"></i>
-            <p class="skillsTitle">
-              React
-            </p>
+        <div class="skillsIcons2">
+          <div>
+            <i class="devicon-nodejs-plain colored fa-3x"></i>
+              <p class="skillsTitle">
+                Node.js
+              </p>
+          </div>
+          <div>
+            <i class="devicon-css3-plain colored fa-3x"></i>
+              <p class="skillsTitle">
+                CSS
+              </p>
+          </div>
+          <div>
+            <i class="devicon-git-plain colored fa-3x"></i>
+              <p class="skillsTitle">
+                Git
+              </p>
+          </div>
+          <div>
+            <i class="devicon-postgresql-plain colored fa-3x"></i>
+              <p class="skillsTitle">
+                PostgreSQL
+              </p>
+          </div>
+          <div>
+            <i class="devicon-html5-plain colored fa-3x"></i>
+              <p class="skillsTitle">
+                HTML
+              </p>
+          </div>
+          <div class="sassDiv">
+            <i class="devicon-sass-original colored fa-3x"></i>
+              <p class="skillsTitle">
+                Sass
+              </p>
+          </div>
+          <div class="jQueryDiv">
+            <i class="devicon-jquery-plain colored fa-3x"></i>
+              <p class="skillsTitle">
+                jQuery
+              </p>
+          </div>
         </div>
-        <div>
-          <i class="devicon-express-original colored fa-3x"></i>
-            <p class="skillsTitle">
-              Express
-            </p>
-        </div>
-        <div>
-          <i class="devicon-github-plain colored fa-3x"></i>
-            <p class="skillsTitle">
-              GitHub
-            </p>
-        </div>
-        <div>
-          <i class="devicon-mongodb-plain colored fa-3x"></i>
-            <p class="skillsTitle">
-              MongoDB
-            </p>
-        </div>
-        <div>
-          <i class="devicon-php-plain colored fa-3x"></i>
-            <p class="skillsTitle">
-              PHP
-            </p>
-        </div>
-      </div>
-      <div class="skillsIcons2">
-        <div>
-          <i class="devicon-nodejs-plain colored fa-3x"></i>
-            <p class="skillsTitle">
-              Node.js
-            </p>
-        </div>
-         <div>
-          <i class="devicon-css3-plain colored fa-3x"></i>
-            <p class="skillsTitle">
-              CSS
-            </p>
-        </div>
-        <div>
-          <i class="devicon-git-plain colored fa-3x"></i>
-            <p class="skillsTitle">
-              Git
-            </p>
-        </div>
-        <div>
-          <i class="devicon-postgresql-plain colored fa-3x"></i>
-            <p class="skillsTitle">
-              PostgreSQL
-            </p>
-        </div>
-        <div>
-          <i class="devicon-html5-plain colored fa-3x"></i>
-            <p class="skillsTitle">
-              HTML
-            </p>
-        </div>
-        <div class="sassDiv">
-          <i class="devicon-sass-original colored fa-3x"></i>
-            <p class="skillsTitle">
-              Sass
-            </p>
-        </div>
-        <div class="jQueryDiv">
-          <i class="devicon-jquery-plain colored fa-3x"></i>
-            <p class="skillsTitle">
-              jQuery
-            </p>
-        </div>
-      </div>
-    <!-- FOOTER W/ LINKS -->
+</main>
+<!-- FOOTER W/ LINKS -->
 <footer class="page-footer font-small special-color-dark pt-4">
   <h2 class="text-center">Let's Connect</h2>
   <br/>
   <!-- FOOTER CONTAINER -->
   <div class="container">
     <!-- SOCIAL BUTTONS -->
-    <div class="social-btns">
+    <div class="connect-btns">
       <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
           <a class="fab fa-github fa-lg" href="https://github.com/albybatista" target="_blank">
