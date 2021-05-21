@@ -29,6 +29,8 @@
     <!-- MDB JS -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0/mdb.min.js"
     ></script>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css"/>
     <script src="app.js"></script>
 </head>
@@ -67,6 +69,7 @@
 </header>
 <!-- HERO SECTION -->
 <main>
+  <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
   <section class="hero-section">
     <a href="#about">
       <div class="hero-contents">
@@ -76,7 +79,9 @@
       </div>
     </a>
   </section>
+  </div>
   <!-- ABOUT ME -->
+  <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
   <div class="about-me" id="about">
     <!-- IMAGE ON LEFT -->
     <img src="public/about-img.jpg" class="about-img">
@@ -99,8 +104,10 @@
         </div>
       </div>
     </div>
+    </div>
     <hr></hr>
     <!-- PROJECTS DISPLAYED -->
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
     <h2 class="text-center" id="projectsTitle">
           Projects
     </h2>
@@ -254,8 +261,10 @@
       </div>
     </div>
     </div>
+    </div>
     <hr/>
       <!-- SKILLS LANGUAGES & FRAMEWORK ICONS -->
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
       <h2 class="text-center" id="skills">Skills</h2>
         <div class="skillsIcons1">
           <div>
@@ -339,8 +348,10 @@
               </p>
           </div>
         </div>
+        </div>
 </main>
 <!-- FOOTER W/ LINKS -->
+<div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 <footer class="page-footer font-small special-color-dark pt-4">
   <h2 class="text-center">Let's Connect</h2>
   <br/>
@@ -374,5 +385,11 @@
         </a>
     </div>
 </footer>
+</div>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

@@ -1,6 +1,8 @@
 body {
     font-family: 'Lato', sans-serif !important;
     font-size: medium;
+    --page-load-time: 300ms;
+    --page-load-delay: 800ms;
 }
 
 .navbar {
@@ -73,14 +75,19 @@ body {
 .about-para {
     padding: 2%;
     margin-right: 1em;
-    animation: page-load-animation 300ms;
+    animation: page-load-animation 300ms ease-in calc(var(--page-load-time) + 200ms);
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
 }
 
 @keyframes page-load-animation {
     0% {
-        transform: translateY(-100px);
+        opacity: 0;
+        transform: translateY(-20px);
     }
     100% {
+        opacity: 1;
         transform: translateY(0px);
     }
 }
@@ -284,7 +291,6 @@ body {
         max-width: 400px;
         max-height: 400px;
         padding: 2% !important;
-        border-radius: 4%;
     }
     .skillsIcons1 {
         flex-direction: row;
