@@ -247,6 +247,12 @@ body {
     }
 }
 
+@media only screen and (min-width: 1025px) {
+    .abtMe {
+        margin-top: 400px;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     #about {
         display: grid !important;
@@ -264,7 +270,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 414px) and (max-width : 767px) and (orientation : portrait) {
+@media only screen and (min-width: 414px) and (max-width : 767px) and (orientation: portrait) {
     .mainPic {
         max-width: 400px;
         max-height: 400px;
