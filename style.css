@@ -11,7 +11,7 @@ body {
 }
 
 .navbar-brand {
-    font-family: 'Rock Salt', cursive !important;
+    font-family: 'Rock Salt', sans-serif !important;
     margin-left: 2%;
 }
 
@@ -30,16 +30,47 @@ body {
     align-items: center;
     flex-direction: column;
     cursor: pointer;
-    background-color: #1e282e;
+    background-color: #1E282E;
 }
 
 .hero-name {
     margin-top: 30%;
     color: white;
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .hero-title {
-    color: white;
+    color: #94c91f;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.hero-contents h2 span {
+    position: relative;
+}
+
+.hero-contents h2 span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    weight: 100%;
+    background: #1E282E;
+    border-left: 2px solid #94c91f;
+    animation: hero-typing 2s steps(17) infinite;
+}
+
+@keyframes hero-typing {
+    100% {
+        left: 100%;
+        right: 0%;
+        margin: 0 -35px 0 35px;
+    }
+    0% {
+        right: 0%;
+        margin: 0 -35px 0 35px;
+    }
 }
 
 #hero-arrow {
