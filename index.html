@@ -389,6 +389,9 @@
 <!-- AOS JS -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
+    window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+    }
     AOS.init();
   </script>
 </body>
