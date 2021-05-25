@@ -5,50 +5,68 @@ body {
     --page-load-delay: 800ms;
 }
 
-.test-card {
+.appTitle {
+    border: 2px solid orange;
+}
+
+.project-card {
     height: 400px;
-    width: 800px;
-    border: 2px solid green;
+    width: 80%;
+    border: 1px solid black;
     display: inline-flex;
-
+    margin-left: 10%;
+    background-color: #1E282E;
+    border-radius: .25rem;
+    margin-top: 4%;
 }
 
-.test-card-img {
-    height: 396px;
-    width: 300px;
-    overflow: hidden;
-    border: 2px solid purple;
+.project-img {
+    height: 400px;
+    width: 400px;
+    /* overflow: hidden; */
+    /* border: 1px solid purple; */
+    border-radius: .25rem;
 }
-.test-right-side {
+
+.project-content {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 25px;
-}
-.test-p {
-    /* width: 200px;
-    height: 100px; */
-    border: 2px solid red;
-    padding: 20px;
+    border-radius: .25rem;
+    color: white;
 }
 
-.test-stack-used {
+.project-description {
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: .25rem;
+}
+
+.project-tech-used {
     border: 2px solid blue;
     display: flex;
     justify-content: center;
     padding: 10px;
+    border-radius: .25rem;
 }
 
+.tech-used-title {
+    color: #94C91F;
+    margin-left: 20px;
+}
 
-.test-projectLinks {
+.tech-used {
+    margin-left: 4px;
+}
+
+.project-links {
     border: 2px solid gold;
     color: blue;
     display: inline-flex;
     justify-content: space-evenly;
     padding: 10px;
-
-    /* align-items: baseline;
-    justify-content: baseline; */
+    border-radius: .25rem;
 }
 
 .navbar {
@@ -87,7 +105,7 @@ body {
 }
 
 .hero-title {
-    color: #94c91f;
+    color: #94C91F;
     font-size: 60px;
     font-weight: 500;
 }
@@ -103,7 +121,7 @@ body {
     height: 100%;
     weight: 100%;
     background: #1E282E;
-    border-left: 2px solid #94c91f;
+    border-left: 2px solid #94C91F;
     animation: hero-typing 2s steps(17) infinite;
 }
 
