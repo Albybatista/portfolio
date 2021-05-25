@@ -314,7 +314,9 @@ body {
     .hero-contents {
         height: 100vh;
     }
-
+    .hero-title {
+        font-size: 35px;
+    }
     #hero-arrow {
         margin-top: 40%;
     }
@@ -343,5 +345,8 @@ body {
 @media only screen and (max-width: 376px) {
     .hero-contents {
         height: 100vh;
+    }
+    .hero-title {
+        font-size: 35px;
     }
 }
