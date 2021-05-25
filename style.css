@@ -5,6 +5,52 @@ body {
     --page-load-delay: 800ms;
 }
 
+.test-card {
+    height: 400px;
+    width: 800px;
+    border: 2px solid green;
+    display: inline-flex;
+
+}
+
+.test-card-img {
+    height: 396px;
+    width: 300px;
+    overflow: hidden;
+    border: 2px solid purple;
+}
+.test-right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+.test-p {
+    /* width: 200px;
+    height: 100px; */
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.test-stack-used {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.test-projectLinks {
+    border: 2px solid gold;
+    color: blue;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+    /* align-items: baseline;
+    justify-content: baseline; */
+}
+
 .navbar {
     padding: 2%;
     background-color: white;
