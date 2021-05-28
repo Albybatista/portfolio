@@ -74,7 +74,7 @@ body {
 }
 
 #hero-arrow {
-    margin-top: 20%;
+    margin: auto;
     color: white;
     animation: hero-arrow-animation 2s infinite;
 }
