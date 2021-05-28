@@ -5,14 +5,16 @@ body {
     --page-load-delay: 800ms;
 }
 
+.nav-logo {
+    height: 80px;
+    margin-left: -15%;
+    margin-top: -6%;
+}
+
 .navbar {
     padding: 2%;
     background-color: white;
-}
-
-.navbar-brand {
-    font-family: 'Rock Salt', sans-serif !important;
-    margin-left: 2%;
+    height: 100px;
 }
 
 .resumeWord {
@@ -33,15 +35,14 @@ body {
     background-color: #1E282E;
 }
 
-.hero-name {
-    margin-top: 30%;
-    color: white;
-    font-size: 60px;
-    font-weight: 400;
+.hero-logo {
+    height: 40%;
+    max-width: 300px;
+    margin: 1em;
 }
 
 .hero-title {
-    color: #94c91f;
+    color: #1C9391;
     font-size: 60px;
     font-weight: 500;
 }
@@ -55,9 +56,9 @@ body {
     position: absolute;
     left: 0;
     height: 100%;
-    weight: 100%;
+    max-width: 100%;
     background: #1E282E;
-    border-left: 2px solid #94c91f;
+    border-left: 2px solid #1C9391;
     animation: hero-typing 2s steps(17) infinite;
 }
 
