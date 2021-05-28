@@ -28,7 +28,6 @@ body {
     border: 2px solid purple;
     border-radius: .25rem;
 }
-
 .project-content {
     display: flex;
     flex-direction: column;
