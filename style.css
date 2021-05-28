@@ -143,6 +143,17 @@ body {
     flex-direction: column;
 }
 
+.section-underline::after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 80px;
+    background: #1C9391;
+}
+
 .card {
     max-height: 800px;
     margin: 0 auto;
@@ -193,11 +204,6 @@ body {
 .fa-code,
 .appTitle {
     color: white;
-}
-
-#skills,
-#projectsTitle {
-    padding-bottom: 2%;
 }
 
 @media only screen and (min-width: 768px) {
