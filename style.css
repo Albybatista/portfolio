@@ -2,7 +2,7 @@ body {
     font-family: 'Lato', sans-serif !important;
     font-size: medium;
     --teal: #1C9391;
-    --navy: #081C4F;
+    --mintgreen: #A8FB87;
     --slate-grey: #1E282E;
     --page-load-time: 300ms;
     --page-load-delay: 800ms;
@@ -39,12 +39,11 @@ body {
 
 .hero-logo {
     height: 40%;
-    max-width: 300px;
     margin: 0;
 }
 
 .hero-title {
-    color: var(--teal);
+    color: var(--mintgreen);
     font-size: 60px;
     font-weight: 500;
 }
@@ -60,7 +59,7 @@ body {
     height: 100%;
     max-width: 100%;
     background: var(--slate-grey);
-    border-left: 2px solid var(--teal);
+    border-left: 2px solid var(--mintgreen);
     animation: hero-typing 2s steps(17) infinite;
 }
 
@@ -362,5 +361,8 @@ body {
     }
     .hero-title {
         font-size: 35px;
+    }
+    .hero-logo {
+        max-width: 360px;
     }
 }
