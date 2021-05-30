@@ -137,16 +137,6 @@ body {
     color: black;
 }
 
-.projects {
-    margin: 3%;
-}
-
-.projectLinks {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-
 .section-underline {
     position: absolute;
     left: 50%;
@@ -157,23 +147,68 @@ body {
     background: var(--teal);
 }
 
-.card {
-    max-height: 800px;
-    margin: 0 auto;
+.project-card {
+    height: 400px;
+    width: 80%;
+    display: inline-flex;
+    margin-left: 10%;
+    background-color: #1E282E;
+    border-radius: .25rem;
+    margin-top: 4%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.project-img img {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    padding: 30px;
+    border-radius: .25rem;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px;
+    border-radius: .25rem;
+    color: white;
+}
+
+.project-description {
+    padding: 20px;
+    border-radius: .25rem;
+}
+
+.project-tech-used {
     display: flex;
     justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    margin-top: 30px;
+    padding: 10px;
+    border-radius: .25rem;
 }
 
-.card-text {
-    font-size: large !important;
+.tech-used-title {
+    color: #94C91F;
+    margin-left: 20px;
 }
 
-.card-body {
-    padding: 2%;
+.tech-used {
+    margin-left: 4px;
 }
+
+.project-links {
+    color: blue;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: .25rem;
+}
+
 
 .skillsTitle {
     display: flex;
@@ -245,8 +280,47 @@ body {
     #aboutMeSocials {
         padding: 2% !important;
     }
-    .card-body {
-        padding: 1rem !important;
+    .project-card {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        height: 100%;
+        margin: auto;
+        padding: 2%;
+        margin-top: 2%;
+    }
+
+    .project-img img {
+        position: unset !important;
+        transform: unset !important;
+    }
+
+    .project-tech-used {
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding: 0%;
+    }
+
+    .project-description {
+        padding: 4%;
+    }
+
+    .tech-used-title {
+        margin-left: 2%;
+        width: 70px;
+    }
+
+    .tech-used {
+        width: 100px;
+    }
+
+    .project-links {
+        flex-direction: column;
+    }
+
+    #opposite-side-card {
+        display: flex;
+        flex-direction: column-reverse;
     }
     .stackUsed {
         display: flex;
