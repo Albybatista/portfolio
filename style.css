@@ -5,20 +5,15 @@ body {
     --page-load-delay: 800ms;
 }
 
-.appTitle {
-    border: 2px solid orange;
-    border-radius: .25rem;
-}
-
 .project-card {
     height: 400px;
     width: 80%;
-    border: 2px solid rgb(9, 246, 250);
     display: inline-flex;
     margin-left: 10%;
     background-color: #1E282E;
     border-radius: .25rem;
     margin-top: 4%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .project-img img {
@@ -30,9 +25,7 @@ body {
     max-width: 100%;
     object-fit: cover;
     display: block;
-    /* overflow: hidden; */
     padding: 30px;
-    border: 2px solid purple;
     border-radius: .25rem;
 }
 .project-content {
@@ -42,17 +35,14 @@ body {
     padding: 25px;
     border-radius: .25rem;
     color: white;
-    border: 2px solid orchid;
 }
 
 .project-description {
-    border: 2px solid red;
     padding: 20px;
     border-radius: .25rem;
 }
 
 .project-tech-used {
-    border: 2px solid blue;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -69,7 +59,6 @@ body {
 }
 
 .project-links {
-    border: 2px solid gold;
     color: blue;
     display: inline-flex;
     justify-content: space-evenly;
@@ -228,10 +217,6 @@ body {
     font-size: large !important;
 }
 
-.card-body {
-    padding: 2%;
-}
-
 .skillsTitle {
     display: flex;
     justify-content: center;
@@ -291,6 +276,9 @@ body {
         border-top-right-radius: .25rem !important;
         border-top-left-radius: .25rem !important;
     }
+    .appTitle {
+        position: absolute;
+    }
 }
 @media only screen and (max-width: 767px) {
     .about-img {
@@ -322,7 +310,6 @@ body {
     }
     .project-tech-used {
         display: inline-flex;
-        /* flex-direction: column; */
         flex-wrap: wrap;
         padding: 0%;
     }
@@ -339,12 +326,9 @@ body {
     .project-links {
         flex-direction: column;
     }
-    #opposite-side-img {
+    #opposite-side-card {
         display: flex;
         flex-direction: column-reverse;
-    }
-    .card-body {
-        padding: 1rem !important;
     }
     .stackUsed {
         display: flex;
@@ -463,32 +447,3 @@ body {
         justify-content: flex-start;
     }
 }
-
-/* @media only screen and (max-width: 1214px) {
-    .project-card {
-        display: flex;
-        flex-direction: column;
-        max-width: 500px;
-        height: 100%;
-        margin: auto;
-        padding: 2%;
-        margin-top: 2%;
-    }
-    .project-img img {
-        position: unset !important;
-        transform: unset !important;
-    }
-    .project-tech-used {
-        display: inline-flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        padding: 0%;
-    }
-    .tech-used-title {
-        margin-left: 2%;
-    }
-    #opposite-side-img {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-} */
