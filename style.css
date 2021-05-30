@@ -152,7 +152,7 @@ body {
     width: 80%;
     display: inline-flex;
     margin-left: 10%;
-    background-color: #1E282E;
+    background-color: var(--black);
     border-radius: .25rem;
     margin-top: 4%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -193,7 +193,7 @@ body {
 }
 
 .tech-used-title {
-    color: #94C91F;
+    color: var(--teal);
     margin-left: 20px;
 }
 
@@ -202,14 +202,15 @@ body {
 }
 
 .project-links {
-    color: blue;
     display: inline-flex;
     justify-content: space-evenly;
     padding: 10px;
     border-radius: .25rem;
 }
 
-
+.project-links a {
+    color: var(--mintgreen) !important;
+}
 .skillsTitle {
     display: flex;
     justify-content: center;
@@ -219,6 +220,10 @@ body {
 .colored {
     display: flex;
     justify-content: center;
+}
+
+#skills-header {
+    margin-top: 2%;
 }
 
 .skillsIcons1 {
@@ -240,9 +245,24 @@ body {
 }
 
 .fa-github, 
-.fa-code,
-.appTitle {
+.fa-code {
     color: white;
+}
+
+.appTitle {
+    color: var(--mintgreen);
+}
+
+.page-footer {
+    background-color: var(--black) !important;
+}
+
+#connect {
+    color: var(--mintgreen)
+
+}
+.footer-copyright {
+    background-color: var(--teal) !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -274,11 +294,11 @@ body {
         border-top-right-radius: .25rem !important;
         border-top-left-radius: .25rem !important;
     }
-    .about-para {
-        padding: 5% !important;
+    #projects-header {
+        margin-top: 0;
     }
-    #aboutMeSocials {
-        padding: 2% !important;
+    .section-underline {
+        margin-bottom: 2px;
     }
     .project-card {
         display: flex;
@@ -287,37 +307,30 @@ body {
         height: 100%;
         margin: auto;
         padding: 2%;
-        margin-top: 2%;
+        margin-top: 6%;
     }
-
     .project-img img {
         position: unset !important;
         transform: unset !important;
     }
-
     .project-tech-used {
         display: inline-flex;
         flex-wrap: wrap;
         padding: 0%;
     }
-
     .project-description {
         padding: 4%;
     }
-
     .tech-used-title {
         margin-left: 2%;
         width: 70px;
     }
-
     .tech-used {
         width: 100px;
     }
-
     .project-links {
         flex-direction: column;
     }
-
     #opposite-side-card {
         display: flex;
         flex-direction: column-reverse;
