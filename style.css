@@ -21,10 +21,17 @@ body {
     margin-top: 4%;
 }
 
-.project-img {
-    height: 400px;
-    width: 400px;
+.project-img img {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
     /* overflow: hidden; */
+    padding: 30px;
     border: 2px solid purple;
     border-radius: .25rem;
 }
@@ -300,6 +307,42 @@ body {
     #aboutMeSocials {
         padding: 2% !important;
     }
+    .project-card {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        height: 100%;
+        margin: auto;
+        padding: 2%;
+        margin-top: 2%;
+    }
+    .project-img img {
+        position: unset !important;
+        transform: unset !important;
+    }
+    .project-tech-used {
+        display: inline-flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        padding: 0%;
+    }
+    .project-description {
+        padding: 4%;
+    }
+    .tech-used-title {
+        margin-left: 2%;
+        width: 70px;
+    }
+    .tech-used {
+        width: 100px;
+    }
+    .project-links {
+        flex-direction: column;
+    }
+    #opposite-side-img {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .card-body {
         padding: 1rem !important;
     }
@@ -414,9 +457,14 @@ body {
     .hero-title {
         font-size: 35px;
     }
+    .tech-used-title {
+        margin-left: unset !important;
+        display: flex;
+        justify-content: flex-start;
+    }
 }
 
-@media only screen and (max-width: 1214px) {
+/* @media only screen and (max-width: 1214px) {
     .project-card {
         display: flex;
         flex-direction: column;
@@ -426,15 +474,13 @@ body {
         padding: 2%;
         margin-top: 2%;
     }
-    .project-img > img {
-        height: 100px;
-        width: 100px;
-        visibility: hidden;
-        /* overflow: hidden; */
+    .project-img img {
+        position: unset !important;
+        transform: unset !important;
     }
     .project-tech-used {
         display: inline-flex;
-        /* flex-direction: column; */
+        flex-direction: column;
         flex-wrap: wrap;
         padding: 0%;
     }
@@ -445,4 +491,4 @@ body {
         display: flex;
         flex-direction: column-reverse;
     }
-}
+} */
