@@ -79,7 +79,7 @@ body {
 
 #hero-arrow {
     margin: auto;
-    color: white;
+    color: var(--teal);
     animation: hero-arrow-animation 2s infinite;
 }
 
