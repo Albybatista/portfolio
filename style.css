@@ -315,6 +315,8 @@ h3 {
 
 .appTitle {
     color: var(--mintgreen);
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .appTitle:hover {
