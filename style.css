@@ -388,17 +388,21 @@ h3 {
         position: unset !important;
         transform: unset !important;
     }
+    .appTitle, 
+    .project-content {
+        padding: 3%;
+    }
     .project-tech-used {
         display: inline-flex;
         flex-wrap: wrap;
+        justify-content: unset !important;
         padding: 0%;
     }
     .project-description {
         padding: 4%;
     }
     .tech-used-title {
-        margin-left: 2%;
-        width: 70px;
+        width: 100px;
     }
     .tech-used {
         width: 100px;
