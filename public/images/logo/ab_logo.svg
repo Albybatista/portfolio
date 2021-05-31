@@ -17,12 +17,12 @@
 			.st0, .st1, .st2 {
 				stroke-dasharray: 2000;
 				stroke-dashoffset: 0;
-				animation: outline 5s infinite;
-				animation-delay: 1600ms;
-				animation-direction: alternate;
+				-webkit-animation: outline 5s infinite;
+				-webkit-animation-delay: 1600ms;
+				-webkit-animation-direction: alternate;
 			}
 
-			@keyframes outline {
+			@-webkit-keyframes outline {
 				0% {
 					stroke-dashoffset: 0;
 					stroke: white;
@@ -43,10 +43,10 @@
 			}
 
 			.st3 {
-				animation: ab-animation calc(1501ms + 7s) infinite;
+				-webkit-animation: ab-animation calc(1501ms + 7s) infinite;
 			}
 			
-			@keyframes ab-animation {
+			@-webkit-keyframes ab-animation {
 				0% {
 					opacity: 0;
 				}
