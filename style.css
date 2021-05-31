@@ -141,18 +141,14 @@ body {
     border-radius: .25rem !important;
 }
 
-.about-me,
-.exp {
+.about-me {
     display: flex;
     flex-direction: column;
+    background-color: var(--dark-grey);
 }
 
 h3 {
     color: var(--mintgreen);
-}
-
-.about-me {
-    background-color: var(--dark-grey);
 }
 
 .about-para {
@@ -188,6 +184,7 @@ h3 {
 
 #aboutMeSocials:hover {
     transform: scale(1.1);
+    color: var(--mintgreen)
 }
 
 .section-underline {
@@ -279,6 +276,7 @@ h3 {
     display: flex;
     justify-content: center;
     margin: 10px;
+    color: var(--black);
 }
 
 .colored {
@@ -287,7 +285,7 @@ h3 {
 }
 
 #skills-header {
-    margin-top: 2%;
+    margin-top: 1em;
 }
 
 .skillsIcons1 {
@@ -366,8 +364,8 @@ h3 {
         max-height: 600px;
         margin-top: 60% !important;
     }
-
 }
+
 @media only screen and (max-width: 767px) {
     .about-img {
         max-width: 330px;
@@ -500,6 +498,9 @@ h3 {
         max-width: 400px;
         max-height: 400px;
         padding: 2% !important;
+    }
+    .tech-used-title {
+        margin-left: 20px !important;
     }
     .skillsIcons1 {
         flex-direction: row;
