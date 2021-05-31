@@ -17,7 +17,8 @@
 			.st0, .st1, .st2 {
 				stroke-dasharray: 2000;
 				stroke-dashoffset: 0;
-				animation: outline 4s;
+				animation: outline 5s;
+				animation-delay: 1501ms;
 			}
 
 			@keyframes outline {
@@ -41,7 +42,7 @@
 			}
 
 			.st3 {
-				animation: ab-animation 4s;
+				animation: ab-animation calc(1501ms + 7s);
 			}
 			
 			@keyframes ab-animation {
@@ -49,10 +50,10 @@
 					opacity: 0;
 				}
 				50% {
-					opacity: 1;
+					opacity: 0;
 				}
 				100% {
-					opacity: 0;
+					opacity: 1;
     		}
 			}
 	</style>
