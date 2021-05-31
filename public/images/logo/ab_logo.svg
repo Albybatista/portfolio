@@ -19,7 +19,6 @@
 				stroke-dashoffset: 0;
 				-webkit-animation: outline 5s infinite;
 				-webkit-animation-delay: 1600ms;
-				-webkit-animation-direction: alternate;
 			}
 
 			@-webkit-keyframes outline {
