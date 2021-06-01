@@ -19,7 +19,7 @@
 				animation: outline 5s;
 				animation-delay: 2s !important;
 				animation-direction: alternate;
-				animation: outline 5s;
+				animation: outline 5s infinite;
 			}
 
 			@keyframes outline {
@@ -48,9 +48,6 @@
 			
 			@keyframes ab-animation {
 				0% {
-					opacity: 0;
-				}
-				50% {
 					opacity: 0;
 				}
 				100% {
