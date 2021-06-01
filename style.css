@@ -272,6 +272,7 @@ h3 {
 .project-links a {
     color: var(--mintgreen) !important;
 }
+
 .skillsTitle {
     display: flex;
     justify-content: center;
@@ -282,6 +283,11 @@ h3 {
 .colored {
     display: flex;
     justify-content: center;
+    transition: transform 1s;
+}
+
+.colored:hover {
+    transform: rotate(360deg) translateZ(0);
 }
 
 #skills-header {
