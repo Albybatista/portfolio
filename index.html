@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alby Batista - Software Engineer</title>
-    <meta property="og:image" content="https://www.albybatista.com/public/about-img.jpg">
+    <title>Alby Batista | Software Engineer</title>
+    <meta property="og:image" content="https://www.albybatista.com/public/images/logo/ab_logo_mockup.jpg">
     <meta property="og:url" content="https://www.albybatista.com/">
     <meta property="og:type" content="website">
     <meta name="author" content="Alby Batista">
@@ -13,11 +13,8 @@
     <!-- DEVICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <!-- FAVICON -->
-    <link rel="icon" href="public/ab_logo.svg" />
+    <link rel="icon" href="public/images/logo/ab_logo.png" />
     <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- FONT AWESOME -->
@@ -38,8 +35,8 @@
 <!-- NAVBAR -->
 <header>
   <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-    <a class="navbar-brand" href="#home">
-      <strong>Alby Batista</strong>
+    <a href="#home">
+      <img src="public/images/logo/ab_logo.svg" class="nav-logo" />
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -47,7 +44,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#about">About </a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#creations">Creations</a>
@@ -73,8 +70,10 @@
   <section class="hero-section">
     <a href="#about">
       <div class="hero-contents">
-        <h1 class="hero-name">Alby Batista</h1>
-        <h2 class="hero-title"><span>Software Engineer</span></h2>
+        <img src="public/images/logo/ab_logo.svg" class="hero-logo" />
+        <h2 class="hero-title">
+          <span>Software Engineer</span>
+        </h2>
         <i class="fas fa-caret-down fa-4x" id="hero-arrow"></i>
       </div>
     </a>
@@ -83,8 +82,8 @@
   <!-- ABOUT ME -->
   <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
   <div class="about-me" id="about">
-    <!-- ABOUT IMG -->
-    <img src="public/about-img.jpg" class="about-img">
+    <!-- IMAGE ON LEFT -->
+    <img src="public/images/other/about-img.jpg" class="about-img">
       <div class="about-para">
         <p>
             <h3>I'm Alby</h3>
@@ -104,22 +103,19 @@
         </div>
       </div>
     </div>
-    </div>
-    <hr></hr>
+    <!-- </div> -->
     <!-- PROJECTS DISPLAYED -->
     <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-    <h2 class="text-center" id="projectsTitle">
-          Projects
+    <h2 class="text-center" id="projects-header">
+      Projects
     </h2>
+    <span class="section-underline" id="skills-underline"></span>
     <!-- DESTINATION RATR -->
     <div class="render-all-projects" id="creations">
-    <div data-aos="fade-left"
-     data-aos-offset="500"
-     data-aos-easing="ease-in-side">
     <div class="project-card">
       <div class="project-img" id="destination-ratr">
         <a href="https://destination-ratr.netlify.app/" target="_blank">
-          <img src="public/destinationratr-og.png">
+          <img src="public/images/other/destinationratr-og.png">
         </a>
       </div>
       <div class="project-content">
@@ -153,14 +149,14 @@
         </p>
       </div>
       <div class="project-links">
-        <a href="https://github.com/sammyschneider/Destination_Ratr" target="_blank">
+        <a href="https://github.com/sammyschneider/Destination_Ratr" target="_blank" id="project-link-icons">
           <i class="fab fa-github fa-1x"></i>
             &nbsp;
             &nbsp;
             GitHub Repo
         </a>
         <br />
-        <a href="https://destination-ratr.netlify.app/" target="_blank">
+        <a href="https://destination-ratr.netlify.app/" target="_blank" id="project-link-icons">
         <i class="fas fa-code fa-1x"></i>
           &nbsp;
           &nbsp;
@@ -169,12 +165,8 @@
       </div>
       </div>
     </div>
-    </div>
     <!-- SCRIVEN -->
-    <div data-aos="fade-right"
-     data-aos-offset="500"
-     data-aos-easing="ease-in-side">
-    <div class="project-card" id="opposite-side-img">
+    <div class="project-card" id="opposite-side-card">
       <div class="project-content">
         <p class="card-title">
           <a href="https://scrivenapp.herokuapp.com" target="_blank" class="appTitle">Scriven</a>
@@ -204,14 +196,14 @@
         </p>
       </div>
       <div class="project-links">
-        <a href="https://github.com/Albybatista/scriven" target="_blank">
+        <a href="https://github.com/Albybatista/scriven" target="_blank" id="project-link-icons">
           <i class="fab fa-github fa-1x"></i>
             &nbsp;
             &nbsp;
             GitHub Repo
         </a>
         <br />
-        <a href="https://scrivenapp.herokuapp.com/" target="_blank">
+        <a href="https://scrivenapp.herokuapp.com/" target="_blank" id="project-link-icons">
         <i class="fas fa-code fa-1x"></i>
           &nbsp;
           &nbsp;
@@ -219,21 +211,17 @@
         </a>
       </div>
       </div>
-      <div class="project-img">
+      <div class="project-img" id="opposite-side-card">
         <a href="https://scrivenapp.herokuapp.com/" target="_blank">
-          <img src="public/scriven-og.png">
+          <img src="public/images/other/scriven-og.png">
         </a>
       </div>
     </div>
-    </div>
     <!-- ICONIC BASEBALL -->
-    <div data-aos="fade-left"
-     data-aos-offset="500"
-     data-aos-easing="ease-in-side">
     <div class="project-card">
       <div class="project-img">
         <a href="https://iconicbaseball.herokuapp.com/baseballs/5f6ac5771635456d81e52e3f/landing" target="_blank">
-          <img src="public/iconicbaseball-og.png">
+          <img src="public/images/other/iconicbaseball-og.png">
         </a>
       </div>
       <div class="project-content">
@@ -267,14 +255,14 @@
         </p>
       </div>
       <div class="project-links">
-        <a href="https://github.com/Albybatista/iconicbaseball" target="_blank">
+        <a href="https://github.com/Albybatista/iconicbaseball" target="_blank" id="project-link-icons">
           <i class="fab fa-github fa-1x"></i>
             &nbsp;
             &nbsp;
             GitHub Repo
         </a>
         <br />
-        <a href="https://iconicbaseball.herokuapp.com/baseballs/5f6ac5771635456d81e52e3f/landing" target="_blank">
+        <a href="https://iconicbaseball.herokuapp.com/baseballs/5f6ac5771635456d81e52e3f/landing" target="_blank" id="project-link-icons">
         <i class="fas fa-code fa-1x"></i>
           &nbsp;
           &nbsp;
@@ -283,13 +271,12 @@
       </div>
       </div>
     </div>
-    </div>
   </div>
   </div>
-  <hr/>
-      <!-- SKILLS LANGUAGES & FRAMEWORK ICONS -->
+    <!-- SKILLS LANGUAGES & FRAMEWORK ICONS -->
     <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-      <h2 class="text-center" id="skills">Skills</h2>
+      <h2 class="text-center" id="skills-header">Skills</h2>
+      <span class="section-underline"></span>
         <div class="skillsIcons1">
           <div>
             <i class="devicon-javascript-plain colored fa-3x"></i>
@@ -377,7 +364,7 @@
 <!-- FOOTER W/ LINKS -->
 <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 <footer class="page-footer font-small special-color-dark pt-4">
-  <h2 class="text-center">Let's Connect</h2>
+  <h2 class="text-center" id="connect">Let's Connect</h2>
   <br/>
   <!-- FOOTER CONTAINER -->
   <div class="container">
@@ -385,26 +372,26 @@
     <div class="connect-btns">
       <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
-          <a class="fab fa-github fa-lg" href="https://github.com/albybatista" target="_blank">
+          <a class="fab fa-github fa-lg" href="https://github.com/albybatista" target="_blank" id="connect-icons">
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="fab fa-linkedin-in fa-lg" href="https://www.linkedin.com/in/albybatista/" target="_blank">
+          <a class="fab fa-linkedin-in fa-lg" href="https://www.linkedin.com/in/albybatista/" target="_blank" id="connect-icons">
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="fas fa-envelope fa-lg" href="mailto:albybatista@gmail.com">
+          <a class="fas fa-envelope fa-lg" href="mailto:albybatista@gmail.com" id="connect-icons">
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="far fa-file-pdf fa-lg" href="resume.pdf" target="_blank">
+          <a class="far fa-file-pdf fa-lg" href="resume.pdf" target="_blank" id="connect-icons">
           </a>
         </li>
       </ul>
     </div>
   </div>
     <div class="footer-copyright text-center py-3" id="contact">
-        <a href="https://albybatista.com">© Copyright 2020 -- 
+        <a href="https://albybatista.com" id="copyright">© Copyright 2020 -- 
           <strong>Alby Batista</strong>
         </a>
     </div>
@@ -413,8 +400,8 @@
 <!-- AOS JS -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
+    window.onbeforeunload = function() {
+      window.scrollTo(0, 0);
     }
     AOS.init();
   </script>
