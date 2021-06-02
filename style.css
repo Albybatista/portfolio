@@ -278,6 +278,7 @@ h3 {
     justify-content: center;
     margin: 10px;
     color: var(--black);
+    font-weight: bold;
 }
 
 .colored {
@@ -427,23 +428,7 @@ h3 {
         flex-wrap: wrap;
         flex-direction: row;
     }
-    .skillsIcons1 {
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 13%;
-        padding-bottom: 0;
-        padding-top: 0;
-        margin-top: 30px;
-    }
-    .skillsIcons2 {
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 13%;
-        padding-bottom: 0;
-        padding-top: 0;
-        justify-content: space-around;
-    }
-    .jQueryDiv {
+    #jQueryDiv {
         display: none;
     }
 }
@@ -508,20 +493,31 @@ h3 {
     .tech-used-title {
         margin-left: 20px !important;
     }
-    .skillsIcons1 {
-        flex-direction: row;
+    .all-skills {
+        display: flex;
         flex-wrap: wrap;
-        padding: 17%;
-        padding-bottom: 0;
-        padding-top: 0;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        max-width: 300px;
+        margin: auto;
     }
+    .icon-divs {
+        margin: .5em;
+        padding: .5em;
+        width: 60px;
+    }
+    .skillsIcons1,
     .skillsIcons2 {
-        flex-direction: row;
+        padding: unset;
+        padding-bottom: unset;
+        padding-top: unset;
+        padding: unset;
+        margin-top: unset;
         flex-wrap: wrap;
-        padding: 17%;
-        padding-bottom: 0;
-        padding-top: 0;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
 
@@ -535,6 +531,34 @@ h3 {
     .hero-logo {
         max-width: 100%;
         height: auto;
+    }
+    .all-skills {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        max-width: 300px;
+        margin: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .icon-divs {
+        margin: .5em;
+        padding: .5em;
+        width: 60px;
+    }
+    .skillsIcons1,
+    .skillsIcons2 {
+        padding: unset;
+        padding-bottom: unset;
+        padding-top: unset;
+        padding: unset;
+        margin-top: unset;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
 
