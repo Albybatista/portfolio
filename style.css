@@ -443,7 +443,7 @@ h3 {
         padding-top: 0;
         justify-content: space-around;
     }
-    .jQueryDiv {
+    #jQueryDiv {
         display: none;
     }
 }
@@ -508,20 +508,30 @@ h3 {
     .tech-used-title {
         margin-left: 20px !important;
     }
-    .skillsIcons1 {
-        flex-direction: row;
+    .all-skills {
+        display: flex;
         flex-wrap: wrap;
-        padding: 17%;
-        padding-bottom: 0;
-        padding-top: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding: 1em;
+        padding-bottom: 2em;
     }
+    .icon-divs {
+        margin: .5em;
+        padding: .5em;
+        width: 100px;
+    }
+    .skillsIcons1,
     .skillsIcons2 {
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 17%;
-        padding-bottom: 0;
-        padding-top: 0;
-        justify-content: space-around;
+        padding: unset;
+        padding-bottom: unset;
+        padding-top: unset;
+        padding: unset;
+        margin-top: unset;
     }
 }
 
