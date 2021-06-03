@@ -209,7 +209,7 @@ h3 {
     background-color: var(--black);
     border-radius: .30rem;
     margin-top: 4%;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .project-img img {
@@ -225,7 +225,7 @@ h3 {
 }
 
 .project-img:hover {
-    transform: scale(1.13);
+    transform: scale(1.03);
 }
 
 .project-content {

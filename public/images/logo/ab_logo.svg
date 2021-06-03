@@ -14,7 +14,7 @@
 				stroke-miterlimit: 8;
 			}
 			.st0, .st1, .st2 {
-				stroke-dasharray: 1400;
+				stroke-dasharray: 1403;
 				stroke-dashoffset: 0;
 				animation-delay: 2s !important;
 				animation-direction: alternate;
@@ -29,7 +29,7 @@
 					stroke: url(#SVGID_1_);
 				} 
 				50% {
-					stroke-dashoffset: 1400;
+					stroke-dashoffset: 1403;
 					fill: url(#SVGID_1_);
 				}
 				80% {
@@ -55,14 +55,6 @@
 				100% {
 					opacity: 1;
     		}
-
-			@media (prefers-reduced-motion: no-preference) {
-				.st0, .st1, .st2 {
-					animation: outline 4s;
-				}
-				.st3 {
-				animation: ab-animation 8s;
-				}	
 			}
 		}
 	</style>
