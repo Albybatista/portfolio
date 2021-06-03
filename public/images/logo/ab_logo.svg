@@ -55,7 +55,16 @@
 				100% {
 					opacity: 1;
     		}
+
+			@media (prefers-reduced-motion: no-preference) {
+				.st0, .st1, .st2 {
+					animation: outline 4s;
+				}
+				.st3 {
+				animation: ab-animation 8s;
+				}	
 			}
+		}
 	</style>
 </defs>          
 <g>
