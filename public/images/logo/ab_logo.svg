@@ -11,7 +11,7 @@
 			.st0, .st1, .st2 {
 				fill: url(#SVGID_1_);
 				stroke-width: 5; 
-				stroke-miterlimit: 8;
+				stroke-miterlimit: 7;
 			}
 			.st0, .st1, .st2 {
 				stroke-dasharray: 1403;
@@ -42,7 +42,7 @@
 			}
 
 			.st3 {
-				animation: ab-animation 8s;
+				animation: ab-animation 5s;
 			}
 			
 			@keyframes ab-animation {
